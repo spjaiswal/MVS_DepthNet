@@ -7,11 +7,8 @@ This repository is an extension of original PyTorch implementation of
 
 
 --- 1.0 Prerequisites
-PyTorch
-The PyTorch version used in the implementation is 0.3. 
-
+PyTorch: The PyTorch version used in the implementation is 0.3. 
 OpenCV
-
 NumPy
 
 --- 2.0 Run the example
