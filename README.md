@@ -6,12 +6,12 @@ This repository is an extension of original PyTorch implementation of
 - The MVDepthNet repository by Wang et. al. generate depth for two images. I have extended it for multiple images.
 
 
---- 1.0 Prerequisites:
+--- Prerequisites:
 PyTorch: The PyTorch version used in the implementation is 0.3,
 OpenCV,
 NumPy
 
---- 2.0 Run:
+--- Run:
 python3 MV_DepthNet.py
 
 --- PS: 
