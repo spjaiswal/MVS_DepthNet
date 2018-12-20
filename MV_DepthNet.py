@@ -165,7 +165,7 @@ class Camera_Param(object):
         for i in self.indices:
             cur_idx = int(i)
 
-            left2right = np.dot(inv(self.CameraPose[cur_idx]), self.CameraPose[0])
+            left2right = np.dot(inv(self.CameraPose[cur_idx]), self.CameraPose[ref_idx])
             left_in_right_T = left2right[0:3, 3]
             left_in_right_R = left2right[0:3, 0:3]
             K = self.camera_k
